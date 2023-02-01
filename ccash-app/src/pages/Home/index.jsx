@@ -5,14 +5,19 @@ export function Home() {
   return (
     <>
       <header>
-        <nav className="navBar">
-          <img></img>
-          <a href="#">Início</a>
-          <a href="%">Sobre</a>
-          <a href="%">Serviços</a>
-          <a href="%">FAQ</a>
-          <button>Abra sua conta</button>
-          <button>Acessar</button>
+        <nav className='navBar'>
+          <p>ccas$h</p>
+          <div className='link'>
+            <a href="#">Início</a>
+            <a href="#">Sobre</a>
+            <a href="#">Serviços</a>
+            <a href="#">FAQ</a>
+          </div>
+          <div>
+            <button>Abra sua conta</button>
+            <button>Acessar</button>
+          </div>
+
         </nav>
       </header>
 
@@ -23,7 +28,7 @@ export function Home() {
         <button>Saiba Mais</button>
         <button>Sou Agente</button>
       </main>
-      
+
     </>
   )
 }
