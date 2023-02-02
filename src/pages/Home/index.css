@@ -5,18 +5,26 @@
       padding: 0px;
       margin: 0px;
       font-family: 'DM Sans', sans-serif;
+      background-color: #FFEE53;
+  }
+
+  .background {
+      background-color: #290047;
   }
 
   .navBar {
       display: flex;
       height: 60px;
 
+      padding-left: 20px;
+      padding-right: 20px;
       flex-direction: row;
       align-items: center;
       justify-content: space-between;
 
       background-color: #290047;
       color: #fff;
+      box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.36);
   }
 
   .navBar p {
@@ -25,15 +33,17 @@
       margin-left: 10px;
 
       color: #FFD700;
+      background-color: #290047;
       font-style: normal;
       text-transform: uppercase;
       text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
-  
+
 
   .navBar a {
       text-decoration: none;
       padding: 10px;
+      background-color: #290047;
 
       color: white;
       font-weight: 600;
@@ -41,15 +51,15 @@
   }
 
   .navBar a:hover {
-        border-bottom:2px solid #FFD700;
-
+      border-bottom: 2px solid #FFD700;
   }
 
   .navBar button {
-      width: 120px;
       height: 30px;
       margin-right: 10px;
       padding: 8px;
+      padding-right: 20px;
+      padding-left: 20px;
 
       background-color: #290047;
       color: #FFD700;
@@ -57,7 +67,55 @@
       font-weight: 700;
       font-size: 10px;
 
-
       border: 1px solid #FFD700;
       border-radius: 40px;
+  }
+
+  .main {
+      display: flex;
+      padding: 20px;
+      margin-top: 50px;
+      justify-content: space-around;
+  }
+
+  .main h1 {
+      width: 60%;
+      color: #290047;
+      font-size: 64px;
+      text-transform: uppercase;
+  }
+
+  .main p {
+      margin-top: 20px;
+
+      width: 60%;
+      font-weight: 700;
+  }
+
+  .main button {
+      width: 300px;
+      height: 70px;
+      margin-top: 40px;
+      margin-right: 30px;
+      padding: 8px;
+
+      background-color: #290047;
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 28px;
+
+      border-radius: 40px;
+      box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+  }
+
+  .main img {
+      width: 600px;
+      max-width: 100%;
+  }
+
+  #lines {
+      margin-top: 150px;
+      margin-left: -100px;
+      width: 100%;
   }
