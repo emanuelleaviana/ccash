@@ -1,24 +1,10 @@
+import NavBar from '../../components/NavBar'
 import './index.css'
 
-export function Home() {
-
+export default function Home() {
   return (
     <>
-      <header className='conteiner'>
-        <nav className='navBar'>
-          <p>cca$h</p>
-          <div className='background'>
-            <a href="#">Início</a>
-            <a href="#">Sobre</a>
-            <a href="#">Serviços</a>
-            <a href="#">FAQ</a>
-          </div>
-          <div className='background'>
-            <button>Abra sua conta</button>
-            <button>Acessar</button>
-          </div>
-        </nav>
-      </header>
+      <NavBar />
 
       <main className='main'>
         <div>
@@ -33,7 +19,6 @@ export function Home() {
           <img src="../src/assets/woman-computer.png" alt="" />
         </div>
       </main>
-
     </>
   )
 }
