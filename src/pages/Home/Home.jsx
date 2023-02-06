@@ -3,10 +3,10 @@ import './index.css'
 
 export default function Home() {
   return (
-    <>
+    <div id='page' >
       <NavBar />
 
-      <main className='main'>
+      <main className='mainHome' id='home'>
         <div>
           <p>Seja bem vindo ao CCA$H!</p>
           <h1>O banco que cuida de você =)</h1>
@@ -15,11 +15,11 @@ export default function Home() {
             <button>Sou Agente</button>
           <img id='lines' src="../src/assets/lines.png" alt="" />
         </div>
-        <div>
+        <figure>
           <img src="../src/assets/woman-computer.png" alt="" />
-        </div>
+        </figure>
       </main>
-    </>
+    </div>
   )
 }
 

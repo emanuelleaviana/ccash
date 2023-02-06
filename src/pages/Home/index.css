@@ -4,95 +4,44 @@
   * {
       padding: 0px;
       margin: 0px;
-      font-family: 'DM Sans', sans-serif;
-      background-color: #FFEE53;
   }
 
-  .background {
-      background-color: #290047;
-  }
-
-  .navBar {
+  #page {
       display: flex;
-      height: 60px;
+      flex-direction: column;
+      height: 100vh;
 
-      padding-left: 20px;
-      padding-right: 20px;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
-
-      background-color: #290047;
-      color: #fff;
-      box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.36);
   }
 
-  .navBar p {
-      font-size: 1.5em;
-      font-weight: 700;
-      margin-left: 10px;
-
-      color: #FFD700;
-      background-color: #290047;
-      font-style: normal;
-      text-transform: uppercase;
-      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  }
-
-
-  .navBar a {
-      text-decoration: none;
-      padding: 10px;
-      background-color: #290047;
-
-      color: white;
-      font-weight: 600;
-      margin: 10px;
-  }
-
-  .navBar a:hover {
-      border-bottom: 2px solid #FFD700;
-  }
-
-  .navBar button {
-      height: 30px;
-      margin-right: 10px;
-      padding: 8px;
-      padding-right: 20px;
-      padding-left: 20px;
-
-      background-color: #290047;
-      color: #FFD700;
-      text-transform: uppercase;
-      font-weight: 700;
-      font-size: 10px;
-
-      border: 1px solid #FFD700;
-      border-radius: 40px;
-  }
-
-  .main {
+  .mainHome {
       display: flex;
-      padding: 20px;
-      margin-top: 50px;
       justify-content: space-around;
+      height: 100vh;
+
+      padding: 20px;
+      padding-top: 50px;
+
+      background-color: #FFEE53;
+      font-family: 'DM Sans', sans-serif;
+      box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.897) inset;
+
   }
 
-  .main h1 {
+  .mainHome h1 {
       width: 60%;
       color: #290047;
       font-size: 64px;
       text-transform: uppercase;
   }
 
-  .main p {
+  .mainHome p {
       margin-top: 20px;
 
       width: 60%;
       font-weight: 700;
   }
 
-  .main button {
+  .mainHome button {
       width: 300px;
       height: 70px;
       margin-top: 40px;
@@ -109,7 +58,7 @@
       box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
   }
 
-  .main img {
+  .mainHome img {
       width: 600px;
       max-width: 100%;
   }

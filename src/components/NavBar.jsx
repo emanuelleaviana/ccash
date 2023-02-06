@@ -1,13 +1,12 @@
-import '../pages/Home/index.css'
+import './index.css'
 import { Link } from 'react-router-dom'
 
 
 export default function NavBar() {
   return (
-    <>
-      <header className='conteiner'>
-        <nav className='navBar'>
-          <p>cca$h</p>
+      <header>
+        <nav className='navBar' >
+          <h1>cca$h</h1>
           <div className='background'>
             <Link to='/'>Início</Link>
             <Link to='/sobre'>Sobre</Link>
@@ -20,6 +19,5 @@ export default function NavBar() {
           </div>
         </nav>
       </header>
-    </>
   )
 }
