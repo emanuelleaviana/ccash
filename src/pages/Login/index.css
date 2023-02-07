@@ -1,0 +1,81 @@
+#pageLogin {
+    background-color: #FFF6A8;
+    height: 100vh;
+    overflow: hidden
+}
+
+.mainLogin {
+    display: flex;
+}
+
+.log {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.registerBox {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+    width: 447px;
+    height: 458px;
+
+    background: #FFFFFF;
+    border-radius: 0px 57px 57px 57px;
+
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.registerBox h1 {
+    font-family: 'DM Sans';
+    font-size: 34px;
+    color: #290047;
+    text-transform: uppercase;
+    font-weight: 100;
+
+    align-self: flex-start;
+    padding: 10px;
+}
+
+.insert {
+    width: 400px;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 10px;
+
+    font-family: 'DM Sans';
+    border: 2px solid #290047;
+}
+
+
+.agentCheck {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.agentCheck p {
+    
+    align-self: flex-start;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    padding-left: 12px;
+}
+
+
+.banner {
+    width: 50%;
+    background-color: #290047;
+    height: 100vh;
+
+}

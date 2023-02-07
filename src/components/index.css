@@ -29,7 +29,7 @@
 }
 
 
-.navBar a {
+#links a {
     text-decoration: none;
     padding: 10px;
     background-color: #290047;
@@ -39,7 +39,7 @@
     margin: 10px;
 }
 
-.navBar a:hover {
+#links a:hover {
     border-bottom: 2px solid #FFD700;
 }
 
@@ -58,4 +58,8 @@
 
     border: 1px solid #FFD700;
     border-radius: 40px;
+}
+
+#buttonNavBar button:hover {
+    cursor: pointer;
 }

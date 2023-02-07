@@ -1,4 +1,4 @@
-import './sobre.css'
+import './index.css'
 import NavBar from '../../components/NavBar'
 
 export default function Sobre() {
