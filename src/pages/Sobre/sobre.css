@@ -1,51 +1,54 @@
-/* @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Montserrat:wght@100&display=swap');
 
-  @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Montserrat:wght@100&display=swap');
 
-* {
-    margin: 0px;
-    padding: 0px;
+
+
+#pageSobre {
     background-color: #121212;
-    color: white;
+    height: 100vh;
 }
 
-h1 {
+.headerSobre h1 {
     text-transform: uppercase;
     margin-top: 60px;
     margin-left: 60px;
     font-family: 'Montserrat';
+    color: white;
+    font-weight: 600;
 
 }
 
-h1 span {
+.headerSobre h1 span {
     color: #FFD700;
     font-family: 'Montserrat';
 }
 
-main {
+.mainSobre {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     margin-top: 0px;
+    font-weight: 600;
 
 }
 
-main article h2 {
+.mainSobre article h2 {
     font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: center;
     margin-top: 20px;
 
 
-    color: #210038;    
+    color: #210038;
     background: none;
     font-size: 36px;
     letter-spacing: 5px;
 
 }
 
-main article p {
+.mainSobre article p {
+
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -53,13 +56,14 @@ main article p {
     margin-right: 15px;
 
 
-    color: #210038;    
+    color: #210038;
     background: none;
     font-size: 16px;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
-main article ul li {
+.mainSobre article ul li {
     display: flex;
     justify-content: center;
     padding-top: 10px;
@@ -67,15 +71,17 @@ main article ul li {
     background: #FFF6A8;
     font-size: 18px;
     color: #210038;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
 .block {
-    width: 344px;
+    width: 360px;
     height: 340px;
 
     background: #FFF6A8;
     margin: 20px;
+    margin-top: 50px;
     border-radius: 29px 29px 0px 0px;
-    
-} */
+
+}

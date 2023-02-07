@@ -3,10 +3,10 @@ import NavBar from '../../components/NavBar'
 
 export default function Sobre() {
     return (
-        <>
+        <div id='pageSobre'>
             <NavBar />
 
-            <header className='header'>
+            <header className='headerSobre'>
                 <h1>
                     <span>Cca$h:</span> Nossos Objetivos
                 </h1>
@@ -33,6 +33,6 @@ export default function Sobre() {
                     </ul>
                 </article>
             </main>
-        </>
+        </div>
     )
 }
