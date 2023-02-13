@@ -18,9 +18,9 @@ export default function Login() {
                         <input className='insert' type="text" placeholder='Confirmação e-mail' />
 
                         <aside className='agentCheck'>
-                            <p>Sou Agente?</p> 
-                            <input type="radio" name="agent" value="valor" /> 
-                            <input type="radio" name="agent" value="valor" />
+                            <p>Sou Agente?</p>
+                            <input type="radio" name="agent" value="valor" /><p>Sim</p>
+                            <input type="radio" name="agent" value="valor" /><p>Não</p>
                         </aside>
 
                         <button>Registrar</button>
@@ -29,9 +29,12 @@ export default function Login() {
                 </article>
 
                 <article className='banner'>
+                    <div className='infoBox'>
                     <h1>Cca$h</h1>
                     <p>“O banco com o maior índice de aprovação” - Forbes</p>
                     <button>Saiba Mais</button>
+                    </div>
+                    
                 </article>
 
             </main>

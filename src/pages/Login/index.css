@@ -14,10 +14,11 @@
     width: 50%;
     justify-content: center;
     align-items: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.6) inset;
+
 }
 
 .registerBox {
-    position: absolute;
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -30,7 +31,6 @@
 
     justify-content: space-around;
     align-items: center;
-
 }
 
 .registerBox h1 {
@@ -54,28 +54,111 @@
     border: 2px solid #290047;
 }
 
-
 .agentCheck {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     justify-content: flex-start;
 }
 
 .agentCheck p {
-    
     align-self: flex-start;
     font-family: 'DM Sans';
     font-weight: 700;
     font-size: 14px;
     line-height: 21px;
-    padding-left: 12px;
+    padding-left: 4px;
 }
 
+.agentCheck input {
+    margin-left: 10px;
+    background-color: #FFD700;
+}
+
+.registerBox button {
+    box-sizing: border-box;
+    width: 104px;
+    height: 29px;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+
+    font-family: 'DM Sans';
+    font-weight: 600;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #290047;
+
+    background: #FFD700;
+    box-shadow: 3px 2px 6px rgba(0, 0, 0, 0.6);
+    border: none;
+    border-radius: 25px;
+}
+
+.registerBox button:hover {
+    cursor: pointer;
+}
 
 .banner {
     width: 50%;
     background-color: #290047;
     height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.6) inset;
 
+}
+
+.infoBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    color: #fff;
+}
+
+.infoBox h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 2em;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-style: normal;
+    padding-bottom: 22px;
+
+
+    color: #FFD700;
+    background-color: #290047;
+    
+    text-transform: uppercase;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.banner button {
+    box-sizing: border-box;
+    width: 104px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    font-family: 'DM Sans';
+    font-weight: 600;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #290047;
+
+    background: #FFD700;
+    margin-top: 26px;
+    box-shadow: 3px 2px 6px rgba(0, 0, 0, 0.6);
+    border: none;
+    border-radius: 25px;
+}
+
+.banner button:hover {
+    cursor: pointer;
 }
