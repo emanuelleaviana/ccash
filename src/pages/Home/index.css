@@ -10,7 +10,6 @@
       display: flex;
       flex-direction: column;
       height: 100vh;
-
   }
 
   .mainHome {
@@ -64,7 +63,5 @@
   }
 
   #lines {
-      margin-top: 150px;
-      margin-left: -100px;
-      width: 100%;
+      margin-top: ;
   }

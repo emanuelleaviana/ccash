@@ -1,4 +1,4 @@
-import NavBar from '../../components/NavBar'
+import NavBar from '../../components/navbar/NavBar'
 import './index.css'
 
 export default function Home() {
@@ -13,7 +13,6 @@ export default function Home() {
           <p>Os agentes da CCA$H fornecem todo o apoio necessário para você contribuinte que busca atendimento de qualidade!</p>
             <button>Saiba Mais</button>
             <button>Sou Agente</button>
-          <img id='lines' src="../src/assets/lines.png" alt="" />
         </div>
         <figure>
           <img src="../src/assets/woman-computer.png" alt="" />

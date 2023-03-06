@@ -1,5 +1,5 @@
 import './index.css'
-import NavBar from '../../components/NavBar'
+import NavBar from '../../components/navbar/NavBar'
 
 export default function Sobre() {
     return (

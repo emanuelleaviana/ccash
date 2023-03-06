@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Montserrat:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+.pageClient {
+    width: 300px;
+    height: 150px;
+    background-color: #fff;
+    margin: 30px;
+    padding: 15px;
+
+    border-radius: 10px;
+    font-family: 'Montserrat';
+}
+
+.boxClient {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    align-items: center;
+}
+
+.textBox {
+    margin-left: 5px;
+}
+
+.textBox p {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.textBox h2 {
+    font-weight: bold;
+}
+
+.buttonsClient {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+
+}
+
+.buttonsClient button {
+    background: #FFD700;
+    width: 100px;
+    height: 25px;
+    margin:2px;
+
+    border: none;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.buttonsClient button:hover {
+    cursor: pointer;
+}
+
+.buttonsClient span button {
+    width: 145px;
+}
+
+#detailsButton {
+    width: 300px;
+}
+
+#editButton {
+    background: #290047;
+    color: #FFD700;
+}
+
+

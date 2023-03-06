@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Montserrat:wght@100&display=swap');
+
+
+#pageServices {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #121212;
+}
+
+.mainServices {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainServices h1 {
+    color: #FFD700;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+
+    margin: 25px;
+}
+
+.clientGrade {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
