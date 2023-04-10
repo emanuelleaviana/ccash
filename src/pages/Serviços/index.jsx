@@ -11,16 +11,20 @@ export default function Serviços() {
             <main className='mainServices'>
                 <h1>Listagem de Clientes</h1>
                 <div className='clientGrade'>
-                <Client />
-                <Client />
-                <Client />
-                <Client />
-                <Client />
-                <Client />
+                    <Client />
+                    <Client />
+                    <Client />
+                    <Client />
+                    <Client />
+                    <Client />
+                    <Client />
+                    <Client />
+                    <Client />
+                    <Client />
+                    <Client />
+                    <Client />
                 </div>
-              
-
             </main>
         </div>
-        )
+    )
 }

@@ -1,7 +1,14 @@
+import NavBar from '../../components/navbar/NavBar'
 import './index.css'
 
 export default function Faq() {
     return (
-        <h1>Ainda em construção!</h1>
+       <div>
+        <NavBar />
+
+        <div>
+            
+        </div>
+       </div>
     )
 }

@@ -8,7 +8,7 @@ export default function Home() {
 
       <main className='mainHome' id='home'>
         <div>
-          <p>Seja bem vindo ao CCA$H!</p>
+          <p>Seja bem vindo ao CCA$H! 👋</p>
           <h1>O banco que cuida de você =)</h1>
           <p>Os agentes da CCA$H fornecem todo o apoio necessário para você contribuinte que busca atendimento de qualidade!</p>
             <button>Saiba Mais</button>

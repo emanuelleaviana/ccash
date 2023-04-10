@@ -2,10 +2,8 @@
 
 
 #pageServices {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
     background-color: #121212;
+    overflow: visible;
 }
 
 .mainServices {
@@ -19,14 +17,24 @@
     color: #FFD700;
     font-family: 'Montserrat';
     text-transform: uppercase;
-
     margin: 25px;
 }
 
 .clientGrade {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+}
+
+@media (max-width: 1188px) {
+    .clientGrade {
+        display: grid;
+        grid-template-columns: 1fr 1fr;  
+    }
+}
+
+@media(max-width: 800px) {
+    .clientGrade {
+        display: grid;
+        grid-template-columns: 1fr;  
+    }
 }
